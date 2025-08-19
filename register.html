@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <!-- CSS Project -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <title>Registro</title>
+  </head>
+  <body>
+    <div class="container col-11 col-md-9" id="form-container">
+      <div class="row gx-5">
+        <div class="col-md-6">
+          <h2>Faça seu cadastro</h2>
+          <form>
+            <div class="form-floating mb-4 input-group">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                placeholder="Digite seu nome"
+                required
+              />
+              <label for="name" class="form-label">Digite seu nome</label>
+              <!-- <i class="bi bi-file-earmark-person input-group-text"></i> -->
+            </div>
+            <div class="form-floating mb-4">
+              <input
+                type="text"
+                class="form-control"
+                id="phone"
+                name="phone"
+                placeholder="Digite seu sobrenome"
+                required
+              />
+              <label for="phone" class="form-label">Digite seu telefone</label>
+              <!-- <i class="bi bi-telephone-fill input-group-text"></i> -->
+            </div>
+            <div class="form-floating mb-4">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                placeholder="Digite o seu e-mail"
+                required
+              />
+              <label for="email" class="form-label">Digite o seu e-mail</label>
+              <!-- <i class="bi bi-envelope-at-fill input-group-text"></i> -->
+            </div>
+            <div class="form-floating mb-4">
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                name="password"
+                placeholder="Crie uma senha"
+                required
+              />
+              <label for="password" class="form-label">Crie uma senha</label>
+              <!-- <i class="bi bi-key-fill input-group-text"></i> -->
+            </div>
+            <div class="form-floating mb-4">
+              <input
+                type="password"
+                class="form-control"
+                id="confirmPassword"
+                name="confirmPassword"
+                placeholder="Confirme a sua senha"
+                required
+              />
+              <label for="confirmPassword" class="form-label"
+                >Confirme sua senha</label
+              >
+              <!-- <i class="bi bi-key-fill input-group-text"></i> -->
+            </div>
+            <div class="mb-4">
+              <div class="form-check mb-4">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="agree-terms"
+                  name="agree-terms"
+                  value=""
+                />
+                <label for="agree-terms" class="form-check-label"
+                  >Aceito os <a href="#">termos de uso</a>?</label
+                >
+              </div>
+              <div class="form-check mb-4">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="newsletter"
+                  name="newsletter"
+                  value=""
+                  checked
+                />
+                <label for="newsletter" class="form-check-label"
+                  >Deseja receber nossas novidades por e-mail?</label
+                >
+              </div>
+              <input type="submit" class="btn btn-primary" value="Cadastrar" />
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <img
+                src="img/hello.svg"
+                alt="Tela de Registro"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-12" id="link-container">
+              <p>Já possui uma conta? <a href="login.html">Faça o login.</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
